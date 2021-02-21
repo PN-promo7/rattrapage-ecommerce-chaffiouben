@@ -1,0 +1,130 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) {
+
+  /* Styles */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+
+  /* TITRE */
+  h1 {
+    padding-top: 90px;
+    font-weight: initial;
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  /* TITRE */
+  /* NAV */
+  .mainnav a {
+    text-decoration: none;
+  }
+
+  .mainnav {
+    width: 100%;
+  }
+
+  .mainnav i {
+    display: none;
+  }
+
+  .menuHam i {
+    display: block;
+    padding-left: 40px;
+  }
+
+  .navmenu {
+    display: none;
+  }
+
+  .logosite {
+    margin: 17px 0px 15px 0px;
+  }
+
+  /* NAV */
+  /* HEADER */
+  header {
+    height: 100%;
+    padding: 30px;
+  }
+
+  /* HEADER */
+  /* MENU */
+  .menucl {
+    flex-direction: column;
+    padding-top: 38px;
+  }
+
+  .menucl a {
+    font-size: 35px;
+  }
+
+  /* MENU */
+  /* ARTICLE */
+  article {
+    width: 100%;
+  }
+
+  .col {
+    padding-top: 40px;
+  }
+
+  .row {
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 21px;
+    padding: 4px 36px;
+  }
+
+  /* ARTICLE */
+  /* FOOTER */
+  footer a {
+    font-size: 20px;
+  }
+
+  footer p {
+    padding-top: 20px;
+    color: white;
+    font-size: 18px
+  }
+
+  .newsletter {
+    font-size: 16px;
+  }
+
+  .footerlink {
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .footer-last {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-last li {
+    font-size: 15px;
+  }
+  /* FOOTER */
+  /* ANCRE VERS HAUTE DE PAGE */
+  #scroll_to_top {
+    display: none;
+  }
+
+  /* ANCRE VERS HAUTE DE PAGE */
+}
